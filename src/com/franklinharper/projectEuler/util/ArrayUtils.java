@@ -1,4 +1,4 @@
-package com.franklinharper.projectEuler;
+package com.franklinharper.projectEuler.util;
 
 public class ArrayUtils {
 

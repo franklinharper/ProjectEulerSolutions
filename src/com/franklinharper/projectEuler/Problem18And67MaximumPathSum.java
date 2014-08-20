@@ -6,6 +6,7 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
+import com.franklinharper.projectEuler.util.ArrayUtils;
 import com.franklinharper.projectEuler.util.IoUtils;
 
 public class Problem18And67MaximumPathSum {

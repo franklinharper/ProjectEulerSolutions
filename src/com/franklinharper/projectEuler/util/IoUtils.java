@@ -8,25 +8,7 @@ import java.util.ArrayList;
 
 public class IoUtils {
 
-//    public static int[][] createArray( String fileName ) throws IOException {
-//        File inputFile = new File( fileName );
-//        BufferedReader inputReader = new BufferedReader( new FileReader( inputFile ) );
-//        int rowCount = 0;
-//        int maxColCount = 0;
-//        String line;
-//        while( ( line = inputReader.readLine() ) != null ) {
-//            String[] strings = line.split( " " );
-//            if( strings.length > maxColCount ) {
-//                maxColCount = strings.length;
-//            }
-//            rowCount++;
-//        }
-//        inputReader.close();
-//        return createArray( inputFile, rowCount, maxColCount );
-//    }
-
     public static int[][] createArray( String fileName ) throws NumberFormatException, IOException {
-        // int[][] data = new int[ numRows ][ numCols ];
         File inputFile = new File( fileName );
         ArrayList< int[] > result = new ArrayList< int[] >();
         BufferedReader inputReader = new BufferedReader( new FileReader( inputFile ) );
