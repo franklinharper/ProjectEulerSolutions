@@ -12,9 +12,9 @@ public class Problem18And67MaximumPathSum {
 
     public static void main( String[] args ) throws Exception {
         System.out.println( "Results for problem 18" );
-        maxPathSum( IoUtils.createArray( "p018_triangle.txt" ) );
+        maxPathSum( IoUtils.createIntArray2d( "p018_triangle.txt", " " ) );
         System.out.println( "Results for problem 67" );
-        int[][] data = IoUtils.createArray( "p067_triangle.txt" );
+        int[][] data = IoUtils.createIntArray2d( "p067_triangle.txt", " " );
         maxPathSum( data );
     }
 
@@ -84,8 +84,8 @@ public class Problem18And67MaximumPathSum {
             { 2, 3, 11 },
         } ) );
 
-        assertEquals( 1074, maxPathSum( IoUtils.createArray( "p018_triangle.txt" ) ) );
-        assertEquals( 7273, maxPathSum( IoUtils.createArray( "p067_triangle.txt" ) ) );
+        assertEquals( 1074, maxPathSum( IoUtils.createIntArray2d( "p018_triangle.txt", " " ) ) );
+        assertEquals( 7273, maxPathSum( IoUtils.createIntArray2d( "p067_triangle.txt", " " ) ) );
     }
 
 }
